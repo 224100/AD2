@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AD2.iml" filepath="$PROJECT_DIR$/.idea/AD2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DFS/DFS.iml" filepath="$PROJECT_DIR$/DFS/DFS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BFS_DFS/BFS_DFS.iml" filepath="$PROJECT_DIR$/BFS_DFS/BFS_DFS.iml" />
     </modules>
   </component>
 </project>
