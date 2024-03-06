@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the String : ");
+        String s =sc.nextLine();
+        System.out.println("Enter the patter : ");
+        String t =sc.nextLine();
+        int n =s.length();
+        int m =t.length();
+        for(int i =0;i<n-m+1;i++){
+            int flag =0;
+            int a=i;
+            for(int j =0;j<m;j++){
+                if(s.charAt(a)==t.charAt(j)){
+                    flag=1;
+                    a++;
+                }
+                else {
+                    flag=0;
+                    break;
+                }
+            }
+            if(flag==1){
+                System.out.println("present : "+i);
+            }
+        }
+    }
+}
