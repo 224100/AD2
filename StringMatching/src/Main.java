@@ -11,11 +11,9 @@ public class Main {
         int m =t.length();
         for(int i =0;i<n-m+1;i++){
             int flag =0;
-            int a=i;
             for(int j =0;j<m;j++){
-                if(s.charAt(a)==t.charAt(j)){
+                if(s.charAt(i+j)==t.charAt(j)){
                     flag=1;
-                    a++;
                 }
                 else {
                     flag=0;
@@ -23,8 +21,8 @@ public class Main {
                 }
             }
             if(flag==1){
-                System.out.println("present : "+i);
+                System.out.println("present at : "+i);
             }
-        }
+        } 
     }
 }
