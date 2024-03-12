@@ -4,7 +4,6 @@ class Dj {
     static final int V = 9;
     int minDistance(int[] dist, Boolean[] sptSet)
     {
-        // Initialize min value
         int min = Integer.MAX_VALUE, min_index = -1;
 
         for (int v = 0; v < V; v++)
