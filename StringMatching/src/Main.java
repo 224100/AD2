@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Main {     
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter the String : ");
@@ -23,6 +23,7 @@ public class Main {
             if(flag==1){
                 System.out.println("present at : "+i);
             }
-        } 
+        }
+        //System.out.println("PS C:\\Aman_2241001030> ");
     }
 }
