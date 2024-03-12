@@ -55,7 +55,7 @@ public class prims {
                 { 6, 8, 0, 0, 9 },
                 { 0, 5, 7, 9, 0 } };
         t.pMST(graph);
-        System.out.println("PS C:\\Aman_2241001030> ");
+//        System.out.println("PS C:\\Aman_2241001030> ");
     }
 }
 

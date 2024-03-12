@@ -33,7 +33,7 @@ public class KruskalsMST {
         graphEdges.sort(Comparator.comparingInt(o -> o.weight));
 
         kruskals(V, graphEdges);
-        System.out.println("PS C:\\Aman_2241001030> ");
+//        System.out.println("PS C:\\Aman_2241001030> ");
     }
     private static void kruskals(int V, List<Edge> edges)
     {
