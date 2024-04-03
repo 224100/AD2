@@ -47,6 +47,5 @@ public class rabin_karp {
         System.out.println("Enter the pattern: ");
         String P = sc.next();
         search(P, T, 11,10);
-        System.out.println("PS C:\\Aman_2241001030> ");
     }
 }
