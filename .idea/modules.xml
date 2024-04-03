@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AD2.iml" filepath="$PROJECT_DIR$/.idea/AD2.iml" />
       <module fileurl="file://$PROJECT_DIR$/BFS_DFS/BFS_DFS.iml" filepath="$PROJECT_DIR$/BFS_DFS/BFS_DFS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Greedy_Algorithms/Greedy_Algorithms.iml" filepath="$PROJECT_DIR$/Greedy_Algorithms/Greedy_Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringMatching/StringMatching.iml" filepath="$PROJECT_DIR$/StringMatching/StringMatching.iml" />
       <module fileurl="file://$PROJECT_DIR$/mst/mst.iml" filepath="$PROJECT_DIR$/mst/mst.iml" />
     </modules>
