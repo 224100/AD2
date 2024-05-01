@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/BFS_DFS/BFS_DFS.iml" filepath="$PROJECT_DIR$/BFS_DFS/BFS_DFS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Greedy_Algorithms/Greedy_Algorithms.iml" filepath="$PROJECT_DIR$/Greedy_Algorithms/Greedy_Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringMatching/StringMatching.iml" filepath="$PROJECT_DIR$/StringMatching/StringMatching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/divrule/divrule.iml" filepath="$PROJECT_DIR$/divrule/divrule.iml" />
       <module fileurl="file://$PROJECT_DIR$/mst/mst.iml" filepath="$PROJECT_DIR$/mst/mst.iml" />
       <module fileurl="file://$PROJECT_DIR$/probing/probing.iml" filepath="$PROJECT_DIR$/probing/probing.iml" />
     </modules>
