@@ -1,13 +1,22 @@
+import java.util.Scanner;
+
 public class ms {
 
     public static void main(String[] args) {
-        int[] a = {12, 11, 13, 5, 6, 7};
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of elements in the array:");
+        int[] a = new int[sc.nextInt()];
+        System.out.println("Enter the elements of the array:");
+        for (int i = 0; i < a.length; i++) {
+            a[i] = sc.nextInt();
+        }
         int n = a.length;
         mergeSort(a, 0, n - 1);
         System.out.println("Sorted array is:");
         for (int i = 0; i < n; i++) {
             System.out.print(a[i] + " ");
         }
+        System.out.println("PS C:\\Aman_2241001030>");
     }
     static void mergeSort(int[] a, int l, int r) {
         if (l < r) {

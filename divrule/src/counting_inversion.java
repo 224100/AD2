@@ -1,8 +1,17 @@
+import java.util.Scanner;
+
 public class counting_inversion {
     public static void main(String[] args) {
-        int[] a = {1, 20, 6, 4, 5};
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of the array");
+        int[] a = new int[sc.nextInt()];
+        System.out.println("Enter the elements of the array");
+        for (int i = 0; i < a.length; i++) {
+            a[i] = sc.nextInt();
+        }
         int n = a.length;
         System.out.println("Number of inversions are " + mergeSort(a, 0, n - 1));
+        System.out.println("PS C:\\Aman_2241001030>");
     }
     static int mergeSort(int[] a, int l, int r) {
         int count = 0;

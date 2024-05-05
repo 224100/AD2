@@ -1,11 +1,16 @@
+import java.util.Scanner;
+
 public class fractional_kanpsack {
     public static void main(String[] args) {
-        Node[] a =new Node[3];
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of items: ");
+        Node[] a =new Node[sc.nextInt()];
         double w =50;
         double p = 0;
-        a[0]=new Node(60,10);
-        a[1]=new Node(100,20);
-        a[2]=new Node(120,30);
+        for(int i =0;i<a.length;i++){
+            System.out.println("Enter the price and weight of item "+(i+1)+": ");
+            a[i]=new Node(sc.nextDouble(),sc.nextDouble());
+        }
         for(int i =0;i<a.length;i++){
             for(int j =0;j<a.length-i-1;j++){
                 if(a[j].ratio<a[j+1].ratio){
@@ -26,6 +31,7 @@ public class fractional_kanpsack {
             }
         }
         System.out.println("final  : "+p);
+        System.out.println("PS C:\\Aman_2241001030>");
     }
 }
 class Node{

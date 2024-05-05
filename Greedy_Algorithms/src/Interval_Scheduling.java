@@ -1,11 +1,14 @@
+import java.util.Scanner;
+
 public class Interval_Scheduling {
     public static void main(String[] args) {
-        node[] n = new node[5];
-        n[0]= new node('a',1,3);
-        n[1]= new node('b',2,5);
-        n[2]= new node('c',3,9);
-        n[3]= new node('d',6,8);
-        n[4]= new node('e',9,10);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of intervals: ");
+        node[] n = new node[sc.nextInt()];
+        for(int i =0;i<n.length;i++){
+            System.out.println("Enter the start and end time of interval "+(i+1)+": ");
+            n[i]=new node((char)(i+65),sc.nextInt(),sc.nextInt());
+        }
         for(int i =0;i<n.length;i++){
             for(int j =0 ; j < n.length-i-1;j++){
                 if(n[j].et>n[j+1].et)
@@ -24,6 +27,7 @@ public class Interval_Scheduling {
                 temp=n[i];
             }
         }
+        System.out.println("PS C:\\Aman_2241001030>");
 
     }
 }
