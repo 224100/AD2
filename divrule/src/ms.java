@@ -16,7 +16,6 @@ public class ms {
         for (int i = 0; i < n; i++) {
             System.out.print(a[i] + " ");
         }
-        System.out.println("PS C:\\Aman_2241001030>");
     }
     static void mergeSort(int[] a, int l, int r) {
         if (l < r) {

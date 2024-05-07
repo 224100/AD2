@@ -11,7 +11,6 @@ public class counting_inversion {
         }
         int n = a.length;
         System.out.println("Number of inversions are " + mergeSort(a, 0, n - 1));
-        System.out.println("PS C:\\Aman_2241001030>");
     }
     static int mergeSort(int[] a, int l, int r) {
         int count = 0;

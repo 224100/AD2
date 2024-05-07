@@ -31,7 +31,6 @@ public class fractional_kanpsack {
             }
         }
         System.out.println("final  : "+p);
-        System.out.println("PS C:\\Aman_2241001030>");
     }
 }
 class Node{

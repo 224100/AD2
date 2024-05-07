@@ -27,7 +27,6 @@ public class Interval_Scheduling {
                 temp=n[i];
             }
         }
-        System.out.println("PS C:\\Aman_2241001030>");
 
     }
 }
