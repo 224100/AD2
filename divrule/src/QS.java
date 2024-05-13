@@ -16,6 +16,7 @@ public class QS {
 
         for(int i : a)
             System.out.print(i+" , ");
+        System.out.println();
 
     }
     static int partition(int[]a , int p,int r){
