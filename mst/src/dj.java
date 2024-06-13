@@ -52,7 +52,6 @@ class Dj {
                 { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
         Dj t = new Dj();
         t.dijkstra(graph);
-//        System.out.println("PS C:\\Aman_2241001030> ");
     }
 
 }

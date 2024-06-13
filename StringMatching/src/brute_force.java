@@ -24,6 +24,5 @@ public class brute_force {
                 System.out.println("present at : "+i);
             }
         }
-        //System.out.println("PS C:\\Aman_2241001030> ");
     }
 }
